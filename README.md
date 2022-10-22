@@ -28,12 +28,15 @@
   Para rodar o projeto precisamos instalar o Python em sua versão superior a 3, após rodar os comandos abaixo:
 
 > pip install psycopg2
+
 > pip install flask
+
 > pip install flask_cors
 
   O proximo passo será criar uma database em seu PostGreeSQL, conforme segue:
 
 > criar um db com o nome BYCODERS
+
 > importar o arquivo bycoders.sql na função restore
 
   Pronto! agora é só executar o main.py da pasta webservice
